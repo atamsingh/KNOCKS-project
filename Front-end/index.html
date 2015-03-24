@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+	<head>
+		<title>Knocks Project!</title>
+		<link href="styles.css" rel="stylesheet">
+		<meta name="description" content="Knocks Currency for activity bundling">
+		<meta name="author" content="Atam Singh">
+	</head>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	
+	<body>
+		<div class="balanceArea">
+			<h1 id="KnocksSum">Getting your KNOCKS balance....</h1>		
+		</div>
+		
+		
+		<div class="entryArea" style="">
+		
+		
+			<div class="addActivity">
+				<button id="add">Click here to add points</button>
+			</div>
+			
+			<div id="form1" style="display: none">
+				<div style="height:15px"></div>
+				<form action="" style="">
+					<textarea name="ActivityName1">Enter info about what completed</textarea><br>
+					<input type="radio" name="add" value="100">+100<br>
+					<input type="radio" name="add" value="200">+200
+				</form>
+				<button id="submit1">Submit</button>
+				<h1 id="warning1" style="display:none">You have not selected a valid response!</h1>
+			</div>
+			
+			
+			<div id="buttonsWhiteSpace" style="height:15px"></div>
+			
+			
+			<div class="removeActivity">
+				<button id="remove">Click here to use points</button>
+			</div>
+			
+			
+			<div id="form2" style="display: none">
+				<div style="height:15px"></div>
+				<form action="">
+					<input type="radio" name="remove" value="1">Watch a Movie! -500<br>
+					<input type="radio" name="remove" value="2">Watch a TV Show -300
+				</form>	
+				<button id="submit2">Submit</button>
+				<h1 id="warning1" style="display:none">You have not selected a valid response!</h1>
+			</div>
+			
+			
+		</div>
+
+	
+	
+	</body>
+	
+	<script src="javascript.js"></script>
+	
+	
+
+	
+	
+
+
+</html>
